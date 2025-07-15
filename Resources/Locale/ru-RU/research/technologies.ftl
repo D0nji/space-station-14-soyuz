@@ -70,4 +70,5 @@ research-technology-quantum-fiber-weaving = Плетение квантовог�
 research-technology-bluespace-cargo-transport = Блюспейс-транспортировка грузов
 research-technology-night-vision-technology = Технология ночного зрения
 research-technology-armed-tech-fab-technology = Оруженый ТехФаб СССП
-research-technology-processing-tungsten = Обработка вольфрама
+research-technology-processing-tungsten = Прокат вольфрама
+research-technology-ammo-tungsten-technology = Боеприпасы ППБС

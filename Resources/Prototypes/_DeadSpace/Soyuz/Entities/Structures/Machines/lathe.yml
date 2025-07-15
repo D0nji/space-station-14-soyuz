@@ -23,10 +23,13 @@
     idleState: icon
     runningState: icon
     dynamicPacks:
-    - ScienceBoards
+    - SecurityAmmoTungsten
+    - ProcessingTungsten
   - type: MaterialStorage
     whitelist:
       tags:
         - Sheet
         - RawMaterial
         - Ingot
+        - IngotTungsten
+        - SheetTungsten

@@ -40,7 +40,7 @@
   price: 0.5 # 1-1 mix of plasma and steel.
 
 - type: material
-  id: Tungsten
+  id: IngotTungsten
   stackEntity: IngotTungsten1
   name: materials-tungsten
   unit: materials-unit-bar

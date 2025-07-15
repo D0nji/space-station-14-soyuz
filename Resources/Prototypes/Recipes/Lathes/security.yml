@@ -709,3 +709,82 @@
     Plastic: 1000
     Plasma: 500
     Glass: 500
+
+# DS14 Soyuz-start
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazinePistolTungsten
+  result: MagazinePistolTungsten
+  materials:
+    Steel: 25
+    Plastic: 65
+    SheetTungsten: 120
+  
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazinePistolSubMachineGunTungsten
+  result: MagazinePistolSubMachineGunTungsten
+  materials:
+    Steel: 25
+    Plastic: 250
+    SheetTungsten: 250
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineRifleTungsten
+  result: MagazineRifleTungsten
+  materials:
+    Steel: 25
+    Plastic: 300
+    SheetTungsten: 300
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineLightRifleTungsten
+  result: MagazineLightRifleTungsten
+  materials:
+    Steel: 25
+    Plastic: 360
+    SheetTungsten: 360
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: SpeedLoaderMagnumTungsten
+  result: SpeedLoaderMagnumTungsten
+  materials:
+    Steel: 50
+    Plastic: 150
+    SheetTungsten: 110
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineBoxPistolTungsten
+  result: MagazineBoxPistolTungsten
+  materials:
+    Plastic: 300
+    SheetTungsten: 600
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineBoxMagnumTungsten
+  result: MagazineBoxMagnumTungsten
+  materials:
+    Plastic: 240
+    SheetTungsten: 180
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineBoxLightRifleTungsten
+  result: MagazineBoxLightRifleTungsten
+  materials:
+    Plastic: 600
+    SheetTungsten: 600
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineBoxRifleTungsten
+  result: MagazineBoxRifleTungsten
+  materials:
+    Plastic: 500
+    SheetTungsten: 500
+# DS14 Soyuz-end

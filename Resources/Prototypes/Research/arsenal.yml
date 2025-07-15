@@ -194,7 +194,7 @@
   - ClothingEyesPNV
 # DS14-end
 
-# DS14 Souz-start
+# DS14 Soyuz-start
 - type: technology
   id:  ArmedTechFab
   name: research-technology-armed-tech-fab-technology
@@ -206,7 +206,27 @@
   cost: 12500
   recipeUnlocks:
   - ArmedTechFabCircuitboard
-# DS14 Souz-end
+
+- type: technology
+  id:  SecurityAmmoTungsten
+  name: research-technology-ammo-tungsten-technology
+  icon:
+    sprite: _DeadSpace/Objects/Weapons/Guns/Ammunition/Boxes/light_rifle.rsi
+    state: icon_tungsten
+  discipline: Arsenal
+  tier: 2
+  cost: 15000
+  recipeUnlocks:
+  - MagazineBoxRifleTungsten
+  - MagazineBoxLightRifleTungsten
+  - MagazineBoxMagnumTungsten
+  - MagazineBoxPistolTungsten
+  - SpeedLoaderMagnumTungsten
+  - MagazineLightRifleTungsten
+  - MagazineRifleTungsten
+  - MagazinePistolSubMachineGunTungsten
+  - MagazinePistolTungsten
+# DS14 Soyuz-end
 
 # Tier 3
 

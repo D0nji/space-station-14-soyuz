@@ -251,7 +251,7 @@
   completetime: 0
   materials:
     RawTungsten: 500
-    Coal: 30
+    Coal: 300
 
 - type: latheRecipe
   id: IngotTungsten30
@@ -259,7 +259,7 @@
   completetime: 2
   materials:
     RawTungsten: 15000
-    Coal: 1000
+    Coal: 9000
 
 - type: latheRecipe
   id: SheetTungsten

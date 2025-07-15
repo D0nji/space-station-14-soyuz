@@ -11,6 +11,9 @@
       stackRequirements:
         MatterBin: 2
         Manipulator: 2
+        Steel: 7
+        CableHV: 5
+        Glass: 1
       tagRequirements:
         GlassBeaker:
           amount: 2
