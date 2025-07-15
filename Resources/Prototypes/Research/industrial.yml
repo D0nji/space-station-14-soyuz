@@ -202,7 +202,7 @@
     - SalvageExpeditionsComputerCircuitboard # Corvax-Cringe
     - BorgModuleAdvancedMining # DS14
 
-# DS14 Souz-start
+# DS14 Soyuz-start
 - type: technology
   id: ProcessingTungsten
   name: research-technology-processing-tungsten
@@ -214,7 +214,7 @@
   cost: 7500
   recipeUnlocks:
     - SheetTungsten
-# DS14 Souz-end
+# DS14 Soyuz-end
 
 # Tier 3
 
