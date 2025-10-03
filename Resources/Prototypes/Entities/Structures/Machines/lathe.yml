@@ -401,13 +401,6 @@
     - SecurityPracticeStatic
     - SecurityAmmoStatic
     - SecurityWeaponsStatic
-    - SecurityBorgModulesStatic # DS14
-    dynamicPacks:
-    - SalvageSecurityBoards
-    - SalvageSecurityWeapons
-    - SecurityEquipment
-    - SecurityBoards
-    - SecurityExplosives
     - SecurityAmmo
     - SecurityWeapons
     - SecurityDisablers
@@ -418,7 +411,14 @@
     - AdvancedBallisticsShotguns
     - BallisticsAutomaticWeapons
     - BallisticsShotguns
-    - PosketDefenseWeaponry
+    - PosketDefenseWeaponry    
+    - SecurityBorgModulesStatic # DS14
+    dynamicPacks:
+    - SalvageSecurityBoards
+    - SalvageSecurityWeapons
+    - SecurityEquipment
+    - SecurityBoards
+    - SecurityExplosives
     - ArmedTechFabCircuitboard # DS14-Soyuz
   - type: MaterialStorage
     whitelist:
