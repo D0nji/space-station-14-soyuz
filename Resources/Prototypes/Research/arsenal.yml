@@ -239,6 +239,7 @@
   icon:
     sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
     state: icon
+  discipline: Arsenal  
   recipeUnlocks:    
   - WeaponPistolMk58
   - WeaponRevolverPython
