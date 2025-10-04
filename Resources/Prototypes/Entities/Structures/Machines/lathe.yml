@@ -405,18 +405,18 @@
     - SecurityWeapons
     - SecurityDisablers
     - BallisticsLargeCaliberWeapons
-    - AdvancedSecurityMagazine
-    - SecurityMagazine
-    - AdvancedBallisticsAutomaticWeapons
-    - AdvancedBallisticsShotguns
-    - BallisticsAutomaticWeapons
-    - BallisticsShotguns
     - PosketDefenseWeaponry    
     - SecurityBorgModulesStatic # DS14
     dynamicPacks:
     - SalvageSecurityBoards
+    - AdvancedSecurityMagazine
     - SalvageSecurityWeapons
     - SecurityEquipment
+    - SecurityMagazine
+    - BallisticsAutomaticWeapons
+    - BallisticsShotguns    
+    - AdvancedBallisticsAutomaticWeapons
+    - AdvancedBallisticsShotguns
     - SecurityBoards
     - SecurityExplosives
     - ArmedTechFabCircuitboard # DS14-Soyuz

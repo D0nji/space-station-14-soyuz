@@ -29,6 +29,7 @@
   id: BaseWeaponRecipeMelee
 
 - type: latheRecipe
+  abstract: true
   parent: BaseAmmoRecipe
   id: BaseEmptyAmmoRecipe1
   completetime: 1

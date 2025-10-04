@@ -33,6 +33,8 @@
     - AdvancedBallisticsAutomaticWeapons
     - AdvancedSecurityMagazine
     - BallisticsLargeCaliberWeapons
+    - NonlethalAmmunition
+    - AdvancedRiotControl
   - type: MaterialStorage
     whitelist:
       tags:
