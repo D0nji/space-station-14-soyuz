@@ -35,7 +35,7 @@
   storage:
     back:
     - BoxSurvivalEngineering
-    - WeaponShotgunBulldog
+    - WeaponShotgunSaigaM
     - MagazineShotgunIncendiary
     - MagazineShotgunIncendiary
     - MagazineShotgunIncendiary
@@ -69,7 +69,7 @@
   storage:
     back:
     - BoxSurvivalEngineering
-    - WeaponShotgunBulldog
+    - WeaponShotgunSaigaM
     - MagazineShotgunIncendiary
     - MagazineShotgunIncendiary
     - MagazineShotgunIncendiary
