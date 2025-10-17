@@ -401,24 +401,16 @@
     - SecurityPracticeStatic
     - SecurityAmmoStatic
     - SecurityWeaponsStatic
-    - SecurityAmmo # DS14-Soyuz
-    - SecurityWeapons # DS14-Soyuz
-    - SecurityDisablers # DS14-Soyuz
-    - BallisticsLargeCaliberWeapons # DS14-Soyuz
-    - PosketDefenseWeaponry # DS14-Soyuz
     - SecurityBorgModulesStatic # DS14
     dynamicPacks:
     - SalvageSecurityBoards
-    - AdvancedSecurityMagazine # DS14-Soyuz
     - SalvageSecurityWeapons
     - SecurityEquipment
-    - SecurityMagazine # DS14-Soyuz
-    - BallisticsAutomaticWeapons # DS14-Soyuz
-    - BallisticsShotguns # DS14-Soyuz   
-    - AdvancedBallisticsAutomaticWeapons # DS14-Soyuz
-    - AdvancedBallisticsShotguns # DS14-Soyuz
     - SecurityBoards
     - SecurityExplosives
+    - SecurityAmmo
+    - SecurityWeapons
+    - SecurityDisablers
     - ArmedTechFabCircuitboard # DS14-Soyuz
   - type: MaterialStorage
     whitelist:
@@ -429,45 +421,6 @@
   - type: OreSiloClient
   - type: LatheAnnouncing
     channels: [Security]
-
-# DS14-Soyuz-start
-- type: entity
-  id: AmmoTechFab
-  parent: BaseLatheLube
-  name: ammo techfab
-  description: Prints the bare minimum of bullets that any budget military or armory could need. Nothing fancy.
-  components:
-    - type: Sprite
-      sprite: Structures/Machines/techfab.rsi
-      layers:
-        - state: icon
-          map: ["enum.LatheVisualLayers.IsRunning"]
-        - state: ammo
-        - state: unlit
-          shader: unshaded
-          map: ["enum.PowerDeviceVisualLayers.Powered"]
-        - state: inserting
-          map: ["enum.MaterialStorageVisualLayers.Inserting"]
-        - state: panel
-          map: ["enum.WiresVisualLayers.MaintenancePanel"]
-    - type: Machine
-      board: AmmoTechFabCircuitboard
-    - type: Lathe
-      idleState: icon
-      runningState: icon
-      staticPacks:
-      - SecurityAmmoStatic
-      - AdvancedSecurityMagazine
-      - SecurityMagazine
-      - SecurityAmmoTungsten
-    - type: MaterialStorage
-      whitelist:
-        tags:
-          - Sheet
-          - RawMaterial
-          - Ingot
-    - type: OreSiloClient
-# DS14-Soyuz-end
 
 - type: entity
   id: MedicalTechFab
